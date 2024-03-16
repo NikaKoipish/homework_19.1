@@ -12,7 +12,7 @@ class MyServer(BaseHTTPRequestHandler):
     """
     def __get_html_content(self):
         return """
-        <!doctype html>
+ <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -301,13 +301,13 @@ class MyServer(BaseHTTPRequestHandler):
                 <div class="col-8">
                     <form>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Имя</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <label for="exampleInputText" class="form-label">Имя</label>
+                            <input type="text" class="form-control" id="exampleInputText"
                                    aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Email</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail">
                             <div id="emailHelp" class="form-text">Мы никому не расскажем ваш электронный адрес</div>
                         </div>
                         <button type="submit" class="w-100 btn btn-primary">Отправить</button>
